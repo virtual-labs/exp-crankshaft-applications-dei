@@ -2,12 +2,12 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is the function of crankshaft?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Converting translational motion into rotary motion",
+        "b": "Converting translational motion into circular motion motion",
+        "c": "Both",
+        "d": "None of the above"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -18,13 +18,68 @@
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
+    
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Crankshaft is manufactured by which of the following process?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Forging",
+        "b": "Casting",
+        "c": "Machining",
+        "d": "All of these"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    
+     {
+      "question": "Which of the following heat treatment process in used in making a crankshaft ?",
+      "answers": {
+        "a": "Quenching",
+        "b": "Induction Hardening",
+        "c": "Nitriding",
+        "d": "All of these"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+
+     {
+      "question": "Which of the following heat treatment process in used in making a crankshaft:?",
+      "answers": {
+        "a": "Quenching",
+        "b": "Alloy Steel",
+        "c": "Tungsten Steel",
+        "d": "All of these"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+
+     {
+      "question": "Which of the following is not a part of crankshaft?",
+      "answers": {
+        "a": "Crankpin",
+        "b": "Counter-weight",
+        "c": "Cam",
+        "d": "Web"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
