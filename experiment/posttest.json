@@ -2,12 +2,47 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Crankshafts can also be ________ out of a billet, often using a bar of high quality vacuum remelted steel:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Drill",
+        "b": "Machining",
+        "c": "Metal working",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which material is used in the simulation of crankshaft for making crankshaft:",
+      "answers": {
+        "a": "C-35",
+        "b": "Alnico",
+        "c": "Both",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+
+    {
+      "question": "The temperature of the billet at the starting of impression die forging in the simulation is:",
+      "answers": {
+        "a": "1100 C",
+        "b": "400 C",
+        "c": "30 C",
+        "d": "None of these"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -19,12 +54,12 @@
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "The configuration and number of pistons in relation to each other and the crank leads to straight, V or _________ :"
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Flat-six Engine",
+        "b": "VS Engine",
+        "c": "Flat Engine",
+        "d": "None of these"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -33,6 +68,23 @@
         "d": "Explanation 2"
       },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "For some engines it is necessary to provide counterweights for the reciprocating mass of each piston and connecting rod to improve ________ :",
+      "answers": {
+        "a": "V Engine",
+        "b": "Engine Balance",
+        "c": "Dead Centre",
+        "d": "Internal Combustion Engine"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
