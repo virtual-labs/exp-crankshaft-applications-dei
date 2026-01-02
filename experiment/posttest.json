@@ -9,12 +9,6 @@
         "c": "Metal working",
         "d": "None of these"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
@@ -26,16 +20,9 @@
         "c": "Both",
         "d": "None of these"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
-
     {
       "question": "The temperature of the billet at the starting of impression die forging in the simulation is:",
       "answers": {
@@ -43,12 +30,6 @@
         "b": "400 C",
         "c": "30 C",
         "d": "None of these"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
@@ -61,14 +42,8 @@
         "c": "Flat Engine",
         "d": "None of these"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
       "correctAnswer": "c",
-      "difficulty": "beginner"
+      "difficulty": "intermediate"
     },
     {
       "question": "For some engines it is necessary to provide counterweights for the reciprocating mass of each piston and connecting rod to improve ________ :",
@@ -78,14 +53,8 @@
         "c": "Dead Centre",
         "d": "Internal Combustion Engine"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
       "correctAnswer": "b",
-      "difficulty": "beginner"
+      "difficulty": "intermediate"
     }
   ]
 }
