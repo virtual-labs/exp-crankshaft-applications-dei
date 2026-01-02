@@ -1,9 +1,13 @@
 **Crankshaft Forming**
 The crankshaft is a part of an engine which translates reciprocating linear piston motion into rotation. It convert the reciprocating motion into rotation by crankpins, additional bearing surfaces whose axis is offset from that of the crank, to which the big ends of the connecting rods from each cylinder attach. It is also known as crank. Crankshaft is generally connected to a flywheel to reduce the pulsation characteristic of the four-stroke cycle and also act as a torsional or vibrational damper at the opposite end.
 
-
-
-Figure: CrankShaft
+<div align="center">
+  <img src="https://github.com/virtual-labs/exp-crankshaft-applications-dei/blob/testing/experiment/images/CrankShaft.jpg"
+       alt="CrankShaft"
+       width="500">
+  <br>
+  <b>Figure: CrankShaft</b>
+</div>
 
 **Description:** The crankshaft is designed to convert the up and down motion of the pistons into horizontal rotation. The shaft is one solid piece made from cast iron or forged steel. Steel is usually used in high loading situations, such as diesel or turbocharged engines. Oil passages are either cast or drilled into the crankshaft to distribute lubricant to the main and rod journals. The basic parts of the crankshaft as shown in above figure are:
 
@@ -32,6 +36,10 @@ In case of high performance crankshaft, the nickel-chrome-molybdenum alloy has b
 **Hardening:** Most production crankshafts use induction hardened bearing surfaces since that method gives good results with low costs. But high performance crankshafts, billet crankshafts in particular, tend to use nitridization instead. Nitridization is slower and thereby more costly. The advantage with nitridization is that it can be done at low temperatures, it produces a very hard surface and the process will leave some compressive residual stress. Carburising is also used for improving the properties of the forged or cast shaft.
 In the given simulation of the crankshaft forming, the closed impression die forging process is used. In this process the upper half section of the crankshaft is impressed on the upper die while lower half of the crankshaft is impressed on the lower die. The material of the billet is chromium alloy steel. The initial temperature of the billet is 1100 0C .The billet is placed over lower die. The hydraulic press is used to deform the billet. The upper die with hydraulic press compresses the billet with very high force in downward direction and severely deform it. Due to high deforming force and high billet temperature ,material starts deforming plastically and moves into the impressions created in the upper and lower die. At the final height the billet is deformed into semi-finished crankshaft. Final shape is obtained after various heat treatment processes and machining of the semi-finished crankshaft.
 
-
-
-Figure: CrankShaft Dies and their arrangement
+<div align="center">
+  <img src="https://github.com/virtual-labs/exp-crankshaft-applications-dei/blob/testing/experiment/images/CrankShaftDie.jpg"
+       alt="CrankShaft Die"
+       width="500">
+  <br>
+  <b>Figure: CrankShaft Dies and their arrangement</b>
+</div>
