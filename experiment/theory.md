@@ -1,55 +1,37 @@
-**Crankshaft Forming :** A crankshaft is a vital engine component that converts the reciprocating motion of the piston into rotary motion. Due to cyclic loading, high torque, and fatigue stresses, crankshafts require high strength, toughness, and dimensional accuracy. Hence, suitable forming and manufacturing processes are essential.
+**Crankshaft Forming**
+The crankshaft is a part of an engine which translates reciprocating linear piston motion into rotation. It convert the reciprocating motion into rotation by crankpins, additional bearing surfaces whose axis is offset from that of the crank, to which the big ends of the connecting rods from each cylinder attach. It is also known as crank. Crankshaft is generally connected to a flywheel to reduce the pulsation characteristic of the four-stroke cycle and also act as a torsional or vibrational damper at the opposite end.
 
-**1.FORGING OF CRANKSHAFT:**
-Forging is the most commonly used method for manufacturing crankshafts, especially for automotive and high-performance engines.
 
-1.The crankshaft is forged from steel billets using hot forging.
-2. Metal is plastically deformed under high compressive forces, ensuring directional grain flow along the crank webs and journals.
-3. This improves fatigue strength, impact resistance, and durability.
-4. Forged crankshafts are compact, dense, and free from internal defects.
 
-**Advantage:** High mechanical strength and long service life.
+Figure: CrankShaft
 
-**2.CASTING OF CRANKSHAFT:**
-Casting is used for low-speed or light-duty engines.
+**Description:** The crankshaft is designed to convert the up and down motion of the pistons into horizontal rotation. The shaft is one solid piece made from cast iron or forged steel. Steel is usually used in high loading situations, such as diesel or turbocharged engines. Oil passages are either cast or drilled into the crankshaft to distribute lubricant to the main and rod journals. The basic parts of the crankshaft as shown in above figure are:
 
-1. Molten metal (usually cast iron) is poured into a mould shaped like the crankshaft.
-2. After solidification, the casting is machined to required dimensions.
-3. Casting allows complex shapes but produces random grain structure.
+**Shaft:** Shaft is a mechanical component for transmitting torque and rotation, and usually used to connect other components of a drive train that cannot be connected directly because of distance or the need to allow for relative movement between them. Here one side of the shaft is connected to the flywheel and the other end is connected to the clutch plate and gear box assembly.
 
-**Limitation:** Lower strength and fatigue resistance compared to forging.
+**Crankpin:** In a reciprocating engine, the crank pins are the journals of the off-centre bearings of the crankshaft. The bigger end of the connecting rod is connected to the crankpin, so as to convert reciprocating motion into rotary motion of the engine.
 
-**3.MACHINING OF CRANKSHAFT:**
-Machining is a secondary process applied after forging or casting.
-1. Operations include turning, milling, drilling, and grinding.
-2. Critical surfaces such as main journals and crank pins are ground to high precision.
-3. Machining ensures dimensional accuracy, surface finish, and alignment.
+**Counterweights:** A counterweight is an equivalent counterbalancing weight that balances a load during dynamic balancing. During high speed motion of the engine, the counterweights balances the thrust produced by the reciprocating motion of piston.
 
-**Note:** Excessive machining is avoided to preserve material strength.
+**MATERIAL OF THE CRANKSHAFT:** Crankshaft is usually made by steel. Generally medium-carbon steel alloys are composed of iron and contain a small percentage of carbon (0.25% to 0.45%), along with combinations of several alloying elements, the mix of which. The alloying elements typically used in these carbon steels are manganese, chromium, molybdenum, nickel, silicon, cobalt, vanadium, and sometimes aluminium and titanium.
+In addition to alloying elements, high strength steels are carefully refined so as to remove as many of the undesirable impurities as possible like sulphur, phosphorous, calcium, etc. The highest quality steels are also used. The required purity can often only be achieved by melting in a vacuum, then re-melting in a vacuum to further refine the metal. Typical vacuum-processing methods are VIM and VAR.
 
-**4.HARDENING AND HEAT TREATMENT:**
-To improve wear resistance and fatigue life, crankshafts undergo heat treatment.
-**Common methods:**
-1. Induction hardening
-2. Nitriding
-3. 
-Journals and fillets are selectively hardened. Core remains tough while the surface becomes hard.
+**Vacuum Induction Melting (VIM):** is a process for producing very high purity steels by melting the materials by induction heating inside a high-vacuum chamber.
 
-**Result:** Improved resistance to wear, bending, and cyclic stresses.
+**Vacuum Arc Remelting (VAR):** is a refining process in which steels are remelted inside a vacuum chamber to reduce the amount of dissolved gasses in the metal. Heating is by means of an electric arc between a consumable electrode and the ingot.
+In case of high performance crankshaft, the nickel-chrome-molybdenum alloy has been a favourites in both forged and billet applications. It is used because of its very high strength and fatigue properties, coupled with good ductility and impact resistance at high strengths.
 
-**5. CRANKSHAFT DIES AND THEIR ARRANGEMENT:**
-1.Forging is carried out using matched dies (upper and lower dies).
-2. Dies are designed to gradually form:
-    Crank pins
-    Main journals
-    Webs
+**Construction:** Crankshafts can be made in a single piece or assembled from several pieces. Monolithic (or single piece) crankshafts are most common, but some smaller and larger engines use assembled crankshafts. Every engine is different and has different requirements. So, depending on the needs and type of engine, the relevant crankshaft is used it can be either forged crankshaft or a cast crankshaft or it can be a billet crankshaft.
 
-Proper die arrangement ensures:
-    Uniform metal flow
-    Minimum defects
-    Accurate crank geometry
+**Forging:** Crankshafts can be forged from a steel bar usually through roll forging or cast in ductile steel. Today more and more manufacturers tend to favour the use of forged crankshafts due to their lighter weight, more compact dimensions and better inherent dampening. Some engines also use cast iron crankshafts for low output versions while the more expensive high output version use forged steel.
 
-**Note:** Die forging improves repeatability and mass production efficiency.
+**Casting:** Casting process can also be used for the crankshaft making. But now a days casting process is not used for making crankshaft as the cast crankshaft has poor mechanical and fatigue strength in comparison to that of forged one. After casting, the crankshaft is machined to get desired accuracy, tolerance and finishing.
 
-**6. COMPARISON OF MANUFACTURING METHODS:**
-Crankshaft dies and their arrangement play a crucial role in the forging process, as properly designed upper and lower dies ensure uniform metal flow, accurate formation of crank pins and journals, correct alignment of crank webs, and improved dimensional accuracy of the forged crankshaft while minimizing defects.
+**Machining:** Crankshafts can also be machined out of a billet, often using a bar of high quality vacuum remelted steel. Even though the fibre flow doesn�t follow the shape of the crankshaft , this is usually not a problem since higher quality steels which normally are difficult to forge can be used. These crankshafts tend to be very expensive due to the large amount of material removal which needs to be done by using lathes and milling machines, the high material cost and the additional heat treatment required.
+
+**Hardening:** Most production crankshafts use induction hardened bearing surfaces since that method gives good results with low costs. But high performance crankshafts, billet crankshafts in particular, tend to use nitridization instead. Nitridization is slower and thereby more costly. The advantage with nitridization is that it can be done at low temperatures, it produces a very hard surface and the process will leave some compressive residual stress. Carburising is also used for improving the properties of the forged or cast shaft.
+In the given simulation of the crankshaft forming, the closed impression die forging process is used. In this process the upper half section of the crankshaft is impressed on the upper die while lower half of the crankshaft is impressed on the lower die. The material of the billet is chromium alloy steel. The initial temperature of the billet is 1100 0C .The billet is placed over lower die. The hydraulic press is used to deform the billet. The upper die with hydraulic press compresses the billet with very high force in downward direction and severely deform it. Due to high deforming force and high billet temperature ,material starts deforming plastically and moves into the impressions created in the upper and lower die. At the final height the billet is deformed into semi-finished crankshaft. Final shape is obtained after various heat treatment processes and machining of the semi-finished crankshaft.
+
+
+
+Figure: CrankShaft Dies and their arrangement
