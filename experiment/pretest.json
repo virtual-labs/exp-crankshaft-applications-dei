@@ -1,4 +1,5 @@
-"version": 2.0,
+{
+  "version": 2.0,
   "questions": [
     {
       "question": "What is the function of crankshaft?",
@@ -13,6 +14,7 @@
         "b": "Explanation 2",
         "c": "Explanation 2",
         "d": "Explanation 2",
+      },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
@@ -29,6 +31,7 @@
         "b": "Explanation 2",
         "c": "Explanation 2",
         "d": "Explanation 2"
+      },
       "correctAnswer": "d",
       "difficulty": "beginner"
     },
@@ -45,6 +48,7 @@
         "b": "Explanation 2",
         "c": "Explanation 2",
         "d": "Explanation 2"
+      },
       "correctAnswer": "d",
       "difficulty": "beginner"
     },
@@ -61,6 +65,7 @@
         "b": "Explanation 2",
         "c": "Explanation 2",
         "d": "Explanation 2"
+      },
       "correctAnswer": "d",
       "difficulty": "beginner"
     },
@@ -77,6 +82,9 @@
         "b": "Explanation 2",
         "c": "Explanation 2",
         "d": "Explanation 2"
+      },
       "correctAnswer": "c",
       "difficulty": "beginner"
-    },
+    }
+  ]
+}
