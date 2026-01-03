@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "Crankshafts can also be ________ out of a billet, often using a bar of high quality vacuum remelted steel:",
+      "question": "Crankshafts can also be machined out of a billet, often using a bar of high quality vacuum remelted steel:",
       "answers": {
         "a": "Drill",
         "b": "Machining",
@@ -35,7 +35,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "The configuration and number of pistons in relation to each other and the crank leads to straight, V or _________ :"
+      "question": "The configuration and number of pistons in relation to each other and the crank leads to straight, V or _________:",
       "answers": {
         "a": "Flat-six Engine",
         "b": "VS Engine",
@@ -46,7 +46,7 @@
       "difficulty": "intermediate"
     },
     {
-      "question": "For some engines it is necessary to provide counterweights for the reciprocating mass of each piston and connecting rod to improve ________ :",
+      "question": "For some engines it is necessary to provide counterweights for the reciprocating mass of each piston and connecting rod to improve ________:",
       "answers": {
         "a": "V Engine",
         "b": "Engine Balance",
