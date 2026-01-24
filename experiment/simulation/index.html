@@ -1,102 +1,124 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
-    <title>Simulations</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crankshaft-Applications Simulations</title>
 </head>
-
 <body>
-    <h2 class="title">Single Cylinder Crankshaft – Simulation</h2>
 
-    <div class="video-container">
-        <iframe 
-            src="https://www.youtube.com/embed/9_lxtqYvJLI"
-            allowfullscreen>
-        </iframe>
-        <p>
-            <strong>Description: </strong>
-            The Crankshaft Forging process produces a crankshaft which has higher metal density, and greater strength and resistance to flexing. Every engine is different and has different requirements. So, depending on the needs and type of engine, the relevant crankshaft is used it can be either forged crankshaft or a cast crankshaft or it can be a billet crankshaft. In the given video of simulation, one can see the crankshaft forming process. In this process the billet is compressed and deformed by closed impression die forming process. In this process the upper half section of the crankshaft is impressed on the upper die while lower half of the crankshaft is impressed on the lower die. Now consider the various parameters used in the crankshaft forming process. The material of the billet is chromium alloy steel. The initial temperature of the billet is 1100oC. The billet is placed over lower die. The hydraulic press is used to deform the billet. The left hand portion the video shows the deformation of billet. The upper die with hydraulic press compresses the billet with very high force in downward direction and severely deform it. Due to high deforming force and high billet temperature, material starts deforming plastically and moves into the impressions created in the upper and lower die. At the final height the billet is deformed into semi-finished crankshaft. Final shape is obtained after various heat treatment processes and machining of the semi-finished crankshaft. The upper right-hand side of the video shows the variation of the strain at various regions of the billet during deformation process. Initially the strain in the billet is zero but at the end of the operation the equivalent strain rises upto 1.38. Similarly lower right-hand side of the video shows the variation of the temperature of the billet. Final crankshaft is shown at the end. It has parts crankpin, shaft and the counter-weights in semi-finished condition.
-        </p>
-    </div>
+<h2>Crankshaft Forging Simulations</h2>
+<hr>
 
-    <h2>Multi cylinder Crankshaft step-1</h2>
+<!-- ===== BUTTON SECTION ===== -->
+<div>
+    <p>Single Cylinder Crankshaft Simulation</p>
+    <button onclick="showSimulation('single')">▶ Play Single Cylinder Crankshaft</button>
 
-    <div class="video-container">
-        <h3>Multi cylinder crankshaft</h3>
-        <iframe 
-            src="https://www.youtube.com/embed/gsH3Vsp4rmU"
-            allowfullscreen>
-        </iframe>
-        <p>
-            <strong>Description: </strong>
-            On the left hand side one can see the crankshaft hot forging-step 1. On the extreme left, the scale shows the equivalent strains generated in the crankshaft. On the right hand side, the picture shows 3 red parts. The 1st red part is the initial billet which is used for 1st step forging. The 2nd red part shows the forged billet after the 1st step. This is the intermediate step. The 3rd red part shows the final forged crankshaft after forging in step-2. The lower two yellow parts shows the upper dies used for step 1 and step 2 processes respectively. The green coloured part shows the lower die which used for both steps.
-        </p>
-    </div>
+    <p>Multi Cylinder – Step 1 Crankshaft</p>
+    <button onclick="showSimulation('step1')">▶ Play Multi Cylinder Crankshaft</button>
 
-    <div class="video-container">
-        <h3>Multi cylinder crankshaft with strain</h3>
-        <iframe 
-            src="https://www.youtube.com/embed/aT8T3Qp2ovg"
-            allowfullscreen>
-        </iframe>
-        <p>
-            <strong>Description: </strong>
-            On the left hand side, one can see the hot forming operation on crankshaft in step 1. On the right hand, top side, the equivalent strains generated in crankshaft are observed when seen from front whereas on the right hand bottom end, the equivalent strains generated in crankshaft are observed when seen from bottom. The scales on the right side of screen shows the equivalent strains generated in the crankshaft.
-        </p>
-    </div>
+    <p>Multi Cylinder – Step 1 with Strain</p>
+    <button onclick="showSimulation('step1strain')">▶ Play Multi Cylinder Crankshaft with strain</button>
 
-    <div class="video-container">
-        <h3>Multi cylinder crankshaft with Curve</h3>
-        <iframe 
-            src="https://www.youtube.com/embed/4fqKvhJhRtQ"
-            allowfullscreen>
-        </iframe>
-        <p>
-            <strong>Description: </strong>
-            On the left hand side, one can see the process of crankshaft hot forging-step 1. On the extreme left, the scale shows the equivalent strains generated in the crankshaft. On the right hand side, the graph for the upper die shows Force Vs Time graph. On X axis, Time is taken in seconds and on Y-axis, Force is taken in Tonnes. The maximum force needed for hot forming in Step 1 is around 809 tonnes.
-        </p>
-    </div>
+    <p>Multi Cylinder – Step 1 with Force Curve</p>
+    <button onclick="showSimulation('step1curve')">▶ Play Multi Cylinder Crankshaft with curve</button>
 
-    <h2>Multi cylinder crankshaft step-2</h2>
+    <p>Multi Cylinder – Step 2 Crankshaft</p>
+    <button onclick="showSimulation('step2')">▶ Play step 2 Multi Cylinder Crankshaft</button>
 
-    <div class="video-container">
-        <h3>Multi cylinder crankshaft</h3>
-        <iframe 
-            src="https://www.youtube.com/embed/YalIr3UkVyU"
-            allowfullscreen>
-        </iframe>
-        <p>
-            <strong>Description: </strong>
-            On the left hand side, one can see the forming operation on crankshaft in step 2. On the right hand, top side, the equivalent strains generated in crankshaft are observed when seen from front whereas on the right hand bottom end, the equivalent strains generated in crankshaft are observed when seen from bottom. The scales on the right side of screen shows the equivalent strains generated in the crankshaft.
-        </p>
-    </div>
+    <p>Multi Cylinder – Step 2 with Strain</p>
+    <button onclick="showSimulation('step2strain')">▶ Play step 2 Multi Cylinder Crankshaft with strain</button>
 
-    <div class="video-container">
-        <h3>Multi cylinder crankshaft with strain</h3>
-        <iframe 
-            src="https://www.youtube.com/embed/01T0yZrEjMw"
-            allowfullscreen>
-        </iframe>
-        <p>
-            <strong>Description: </strong>
-            On the left hand side one can see the Step 2 of crankshaft hot forging. One can visualize the changes in microstructure in crankshaft by seeing changes in the mesh. On the right hand side, the picture shows 3 red parts. The 1st red part is the initial billet which is used for 1st step forging. The 2nd red part shows the forged billet after the 1st step. This is the intermediate step. The 3rd red part shows the final forged crankshaft after forging in step-2. The lower two yellow parts shows the upper dies used for step 1 and step 2 processes respectively. The green coloured part shows the lower die which used for both steps.
-        </p>
-    </div>
+    <p>Multi Cylinder – Step 2 with Force Curve</p>
+    <button onclick="showSimulation('step2curve')">▶ Play step 2 Multi Cylinder Crankshaft with curve</button>
+</div>
 
-    <div class="video-container">
-        <h3>Multi cylinder crankshaft with Curve</h3>
-        <iframe 
-            src="https://www.youtube.com/embed/cnCVPeW4KsU"
-            allowfullscreen>
-        </iframe>
-        <p>
-            <strong>Description: </strong>
-            On the left hand side, one can see the process of crankshaft hot forging-step 2. On the right hand side, the graph for the upper die shows Force Vs Time graph. On X axis, Time is taken in seconds and on Y-axis, Force is taken in Tonnes.
-        </p>
-    </div>
+<hr>
 
-    <script src="./js/main.js"></script>
+<!-- ===== VIDEO + DESCRIPTION SECTION ===== -->
+
+<div id="single" class="video-section" style="display:none;">
+    <h3>Single Cylinder Crankshaft Simulation</h3>
+    <video width="750" controls>
+        <source src="SingleCylinder Crankshaft.mp4" type="video/mp4">
+    </video>
+    <p><strong>Description:</strong> The Crankshaft Forging process produces a crankshaft which has higher metal density, and greater strength and resistance to flexing. Every engine is different and has different requirements. So, depending on the needs and type of engine, the relevant crankshaft is used it can be either forged crankshaft or a cast crankshaft or it can be a billet crankshaft. In the given video of simulation, one can see the crankshaft forming process. In this process the billet is compressed and deformed by closed impression die forming process. In this process the upper half section of the crankshaft is impressed on the upper die while lower half of the crankshaft is impressed on the lower die. Now consider the various parameters used in the crankshaft forming process. The material of the billet is chromium alloy steel. The initial temperature of the billet is 1100°C.The billet is placed over lower die. The hydraulic press is used to deform the billet. The left hand portion the video shows the deformation of billet. The upper die with hydraulic press compresses the billet with very high force in downward direction and severely deform it. Due to high deforming force and high billet temperature ,material starts deforming plastically and moves into the impressions created in the upper and lower die. At the final height the billet is deformed into semi-finished crankshaft. Final shape is obtained after various heat treatment processes and machining of the semi-finished crankshaft. The upper right -hand side of the video shows the variation of the strain at various regions of the billet during deformation process. Initially the strain in the billet is zero but at the end of the operation the equivalent strain rises upto 1.38. Similarly lower right-hand side of the video shows the variation of the temperature of the billet. Final crankshaft is shown at the end .It has parts crankpin, shaft and the counter-weights in semi-finished condition.</p>
+</div>
+
+<div id="step1" class="video-section" style="display:none;">
+    <h3>Multi Cylinder Crankshaft – Step 1</h3>
+    <video width="750" controls>
+        <source src="MultiCylinder step 1 Crankshaft.mp4" type="video/mp4">
+    </video>
+    <p><strong>Description:</strong> On the left hand side one can see the crankshaft hot forging-step 1. On the extreme left, the scale shows the equivalent strains generated in the crankshaft. On the right hand side, the picture shows 3 red parts. The 1<sup>st</sup> red part is the initial billet which is used for 1<sup>st</sup> step forging. The 2<sup>nd</sup> red part shows the forged billet after the 1<sup>st</sup> step. This is the intermediate step. The 3<sup>rd</sup> red part shows the final forged crankshaft after forging in step-2. The lower two yellow parts shows the upper dies used for step 1 and step 2 processes respectively. The green coloured part shows the lower die which used for both steps.</p>
+</div>
+
+<div id="step1strain" class="video-section" style="display:none;">
+    <h3>Multi Cylinder Step 1 with Strain</h3>
+    <video width="750" controls>
+        <source src="Multi Cylinder step 1 Crankshaft with Strain.mp4" type="video/mp4">
+    </video>
+    <p><strong>Description:</strong> On the left hand side, one can see the hot forming operation on crankshaft in step 1. On the right hand, top side, the equivalent strains generated in crankshaft are observed when seen from front where as on the right hand bottom end, the equivalent strains generated in crankshaft are observed when seen from bottom. The scales on the right side of screen shows, the equivalent strains generated in the crankshaft.</p>
+</div>
+
+<div id="step1curve" class="video-section" style="display:none;">
+    <h3>Multi Cylinder Step 1 with Force Curve</h3>
+    <video width="750" controls>
+        <source src="Multi Cylinder step 1 Crankshaft with curve.mp4" type="video/mp4">
+    </video>
+    <p><strong>Description:</strong>On the left hand side, one can see the process of crankshaft hot forging-step 1. On the extreme left, the scale shows the equivalent strains generated in the crankshaft. On the right hand side, the graph for the upper die shows Force Vs Time graph. On X axis, Time is taken in seconds and on Y- axis, Force is taken in Tonnes. The maximum force needed for hot forming in Step 1 is around 809 tonnes.</p>
+</div>
+
+<div id="step2" class="video-section" style="display:none;">
+    <h3>Multi Cylinder Crankshaft – Step 2</h3>
+    <video width="750" controls>
+        <source src="MultiCylinder step 2 NextCrankshaft.mp4" type="video/mp4">
+    </video>
+    <p><strong>Description:</strong>On the left hand side, one can see the forming operation on crankshaft in step 2. On the right hand, top side, the equivalent strains generated in crankshaft are observed when seen from front where as on the right hand bottom end, the equivalent strains generated in crankshaft are observed when seen from bottom. The scales on the right side of screen shows, the equivalent strains generated in the crankshaft.</p>
+</div>
+
+<div id="step2strain" class="video-section" style="display:none;">
+    <h3>Multi Cylinder Step 2 with Strain</h3>
+    <video width="750" controls>
+        <source src="Multi Cylinder step 2 ViewCrankshaft with strain.mp4" type="video/mp4">
+    </video>
+    <p><strong>Description:</strong>On the left hand side one can see the Step 2 of crankshaft hot forging. One can visualize the changes in microstructure in crankshaft by seeing changes in the mesh. On the right hand side, the picture shows 3 red parts. The 1<sup>st</sup> red part is the initial billet which is used for 1<sup>st</sup> step forging. The 2<sup>nd</sup> red part shows the forged billet after the 1<sup>st</sup> step.This is the intermediate step. The 3rd red part shows the final forged crankshaft after forging in step-2. The lower two yellow parts shows the upper dies used for step 1 and step 2 processes respectively. The green coloured part shows the lower die which used for both steps.</p>
+</div>
+
+<div id="step2curve" class="video-section" style="display:none;">
+    <h3>Multi Cylinder Step 2 with Force Curve</h3>
+    <video width="750" controls>
+        <source src="Multi Cylinder step 2 CurveCrankshaft with curve.mp4" type="video/mp4">
+    </video>
+    <p><strong>Description:</strong>On the left hand side, one can see the process of crankshaft hot forging-step 2. On the right hand side, the graph for the upper die shows Force Vs Time graph. On X axis, Time is taken in seconds and on Y- axis, Force is taken in Tonnes.</p>
+</div>
+
+<!-- ===== SCRIPT ===== -->
+<script>
+function showSimulation(id) {
+    const sections = document.getElementsByClassName('video-section');
+
+    for (let i = 0; i < sections.length; i++) {
+        sections[i].style.display = 'none';
+        const video = sections[i].querySelector('video');
+        if (video) {
+            video.pause();
+            video.currentTime = 0;
+        }
+    }
+
+    const active = document.getElementById(id);
+    active.style.display = 'block';
+
+    const activeVideo = active.querySelector('video');
+    if (activeVideo) {
+        activeVideo.play();
+    }
+
+    active.scrollIntoView({ behavior: 'smooth' });
+}
+</script>
+
 </body>
 </html>
-
