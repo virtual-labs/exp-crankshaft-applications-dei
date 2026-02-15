@@ -43,7 +43,7 @@
         "d": "None of these"
       },
       "correctAnswer": "c",
-      "difficulty": "intermediate"
+      "difficulty": "beginner"
     },
     {
       "question": "For some engines it is necessary to provide counterweights for the reciprocating mass of each piston and connecting rod to improve ________:",
@@ -54,7 +54,7 @@
         "d": "Internal Combustion Engine"
       },
       "correctAnswer": "b",
-      "difficulty": "intermediate"
+      "difficulty": "beginner"
     }
   ]
 }
