@@ -4,32 +4,27 @@
     {
       "question": "Crankshafts can also be machined out of a billet, often using a bar of high quality vacuum remelted steel:",
       "answers": {
-        "a": "Drill",
-        "b": "Machining",
-        "c": "Metal working",
-        "d": "None of these"
+        "a": "answer1",
+        "b": "answer2",
+        "c": "answer3",
+        "d": "answer4"
       },
-      "correctAnswer": "b",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "Which material is used in the simulation of crankshaft for making crankshaft:",
-      "answers": {
-        "a": "C-35",
-        "b": "Alnico",
-        "c": "Both",
-        "d": "None of these"
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "The temperature of the billet at the starting of impression die forging in the simulation is:",
+      "question": "This is a Sample Question 2?",
       "answers": {
-        "a": "1100 C",
-        "b": "400 C",
-        "c": "30 C",
-        "d": "None of these"
+        "a": "answer1",
+        "b": "answer2",
+        "c": "answer3",
+        "d": "answer4"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
