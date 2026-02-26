@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Crankshafts can also be machined out of a billet, often using a bar of high quality vacuum remelted steel:",
       "answers": {
         "a": "answer1",
         "b": "answer2",
@@ -26,13 +26,29 @@
         "c": "answer3",
         "d": "answer4"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The configuration and number of pistons in relation to each other and the crank leads to straight, V or _________:",
+      "answers": {
+        "a": "Flat-six Engine",
+        "b": "VS Engine",
+        "c": "Flat Engine",
+        "d": "None of these"
       },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "For some engines it is necessary to provide counterweights for the reciprocating mass of each piston and connecting rod to improve ________:",
+      "answers": {
+        "a": "V Engine",
+        "b": "Engine Balance",
+        "c": "Dead Centre",
+        "d": "Internal Combustion Engine"
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
