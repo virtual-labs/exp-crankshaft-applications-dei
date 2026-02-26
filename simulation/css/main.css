@@ -1,0 +1,183 @@
+/* == GLOBAL == */
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    background-color: #f0f4f8;
+    color: #333;
+    overflow-x: hidden;   /* prevent horizontal scroll */
+    overflow-y: auto;     /* allow vertical scroll */
+}
+
+
+/* == HEADER ==*/
+
+.header-container {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+h2 {
+    color: #004a99;
+    font-size: 1.8em;
+    margin: 5px 0;
+}
+
+.underline {
+    height: 4px;
+    width: 80px;
+    background-color: #ff6600;
+    margin: 0 auto;
+    border-radius: 2px;
+}
+
+
+/* == MAIN BUTTON SECTION == */
+
+.vertical-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 25px 40px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.cta-text {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 5px;
+    font-style: italic;
+    text-align: center;
+}
+
+
+/* == BUTTON == */
+
+.play-btn {
+    background-color: #004a99;
+    color: white;
+    border: none;
+    padding: 12px 0;
+    width: 340px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: all 0.2s ease;
+}
+
+.play-btn:hover {
+    background-color: #003366;
+    transform: scale(1.02);
+}
+
+
+/* == VIDEO OVERLAY == */
+
+.video-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.85);
+    z-index: 1000;
+    justify-content: center;
+
+    /* 🔥 FIX: start from top instead of center */
+    align-items: flex-start;
+
+    padding: 40px 20px;
+    overflow-y: auto;
+}
+
+
+/* == VIDEO CARD == */
+
+.video-card {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 850px;
+    position: relative;
+}
+
+
+/* == CLOSE BUTTON == */
+
+.close-btn {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    background: #ff6600;
+    color: white;
+    border: none;
+    font-size: 28px;
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+/* == VIDEO == */
+
+video {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 15px;
+    background: #000;
+}
+
+
+/* == DESCRIPTION == */
+
+.description-box {
+    margin-top: 20px;
+    padding: 15px;
+    border-left: 5px solid #004a99;
+    text-align: justify;
+    font-size: 0.95em;
+    line-height: 1.6;
+}
+
+
+/* == RESPONSIVE == */
+
+@media (max-width: 768px) {
+
+    .vertical-nav {
+        padding: 20px;
+    }
+
+    .play-btn {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .video-card {
+        padding: 20px;
+    }
+
+    .close-btn {
+        top: 10px;
+        right: 15px;
+        font-size: 24px;
+        width: 35px;
+        height: 35px;
+    }
+
+}

@@ -1,0 +1,95 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "number": 1,
+      "question": "1. Crankshafts can also be machined out of a billet, often using a bar of high quality vacuum remelted steel:",
+      "answers": {
+        "a": "Drill",
+        "b": "Machining",
+        "c": "Metal working",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "Incorrect. Drilling is only a single operation and does not represent the full manufacturing method.",
+        "b": "Correct. Crankshafts can be produced from a billet using machining processes.",
+        "c": "Incorrect. Metal working is a broad term, not the specific process referred to here.",
+        "d": "Incorrect. One of the given options is correct."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "number": 2,
+      "question": "2. Which material is used in the simulation of crankshaft for making crankshaft:",
+      "answers": {
+        "a": "C-35",
+        "b": "Alnico",
+        "c": "Both",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "Correct. C-35 medium carbon steel is suitable for crankshaft manufacturing due to its strength and toughness.",
+        "b": "Incorrect. Alnico is a magnetic alloy and not used for crankshaft production.",
+        "c": "Incorrect. Only C-35 is appropriate in this simulation.",
+        "d": "Incorrect. One of the options listed is correct."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "number": 3,
+      "question": "3. The temperature of the billet at the starting of impression die forging in the simulation is:",
+      "answers": {
+        "a": "1100 C",
+        "b": "400 C",
+        "c": "30 C",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "Correct. Impression die forging of steel typically begins around 1100°C to ensure sufficient ductility.",
+        "b": "Incorrect. 400°C is too low for hot forging steel.",
+        "c": "Incorrect. 30°C is room temperature and unsuitable for hot forging.",
+        "d": "Incorrect. One of the provided options is correct."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "number": 4,
+      "question": "4. The configuration and number of pistons in relation to each other and the crank leads to straight, V or _________:",
+      "answers": {
+        "a": "Flat-six Engine",
+        "b": "VS Engine",
+        "c": "Flat Engine",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "Incorrect. Flat-six is a specific example of a flat engine configuration.",
+        "b": "Incorrect. VS Engine is not a recognized standard configuration.",
+        "c": "Correct. Common engine configurations include straight, V, and flat engines.",
+        "d": "Incorrect. One of the options listed is correct."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "number": 5,
+      "question": "5. For some engines it is necessary to provide counterweights for the reciprocating mass of each piston and connecting rod to improve ________:",
+      "answers": {
+        "a": "V Engine",
+        "b": "Engine Balance",
+        "c": "Dead Centre",
+        "d": "Internal Combustion Engine"
+      },
+      "explanations": {
+        "a": "Incorrect. Counterweights do not determine engine configuration.",
+        "b": "Correct. Counterweights are used to improve engine balance and reduce vibrations.",
+        "c": "Incorrect. Dead centre refers to piston position, not balancing.",
+        "d": "Incorrect. Counterweights improve balance, not engine type."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}
